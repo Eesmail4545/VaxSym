@@ -1,0 +1,19 @@
+[0;1;32m●[0m apache2.service - The Apache HTTP Server
+     Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Mon 2023-07-24 14:51:30 EAT; 12min ago
+       Docs: https://httpd.apache.org/docs/2.4/
+    Process: 801 ExecStart=/usr/sbin/apachectl start (code=exited, status=0/SUCCESS)
+   Main PID: 925 (apache2)
+      Tasks: 6 (limit: 4448)
+     Memory: 11.2M
+     CGroup: /system.slice/apache2.service
+             ├─925 /usr/sbin/apache2 -k start
+             ├─934 /usr/sbin/apache2 -k start
+             ├─935 /usr/sbin/apache2 -k start
+             ├─936 /usr/sbin/apache2 -k start
+             ├─937 /usr/sbin/apache2 -k start
+             └─938 /usr/sbin/apache2 -k start
+
+Jul 24 14:51:22 ismailey-Lenovo-ideapad-330-15IKB systemd[1]: Starting The Apache HTTP Server...
+Jul 24 14:51:30 ismailey-Lenovo-ideapad-330-15IKB apachectl[825]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Jul 24 14:51:30 ismailey-Lenovo-ideapad-330-15IKB systemd[1]: Started The Apache HTTP Server.
